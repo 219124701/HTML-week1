@@ -25,8 +25,8 @@ we have atributes 1. class- it is commonly used and it assign a reusable name to
 ARIA ROLES - it is an atribute that can be added to html elements to convey the right message about the content's meaning , it plays a role when we want to provide essential information to screen readers and magnifiers to ensure the web is fully accessible.
 
 FORMATING HTML -it referes to the way text is displayed on a web page , comments are inserted by putting tags at the start and at the end
-we use elements greater and less pre , code tags or tags with text area also if you are modifying the whitespace handling with CSS then extra spaces can matter
-UNUSUAL 
+we use elements greater and less pre , code tags or tags with text area also if you are modifying the whitespace handling with CSS then extra spaces can matter 
+UNUSUAL CHARECTERS - symbols are important charecters on html 
 
 
 
