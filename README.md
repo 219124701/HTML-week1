@@ -31,14 +31,18 @@ we use elements greater and less pre , code tags or tags with text area also if 
 
 - Navigation and linking
  To create a link we use an A element wich is an anchor inorder to do this we need to to add href attribute that is used to  specify the URL or destination of a hyper link and this href with URL is eclosed in quotes, and the URL is the one the one that takes us to the link, URLs are versatile and when you linking to another website you can iclude the entire URL. There are types of URL which is absolute and it is called absolute becouse it a precise location on the web. 
-HTML URL PATHWAYS : in html when specifying paths for resources like images , stylesheets or links you typically encounter two pathways which is absolute path that specifies the complete URL or file path from the root . If the absolute URL were used for all links the browser will keep trying to access files
+HTML URL PATHWAYS : in html when specifying paths for resources like images , stylesheets or links you typically encounter two pathways which is absolute path that specifies the complete URL or file path from the root . If the absolute URL were used for all links the browser will keep trying to access files.
+
+
  TO CREATE A URL FROM SCRATCH : you need to see how files are organised and there is RELATIVE domain how to createe it ? you need to ommit the domain name but include the initial slash at the begining and this helps the browser to start from the root level of the file structure . Secondly you need to specify the path to a resource relative to the current document or lacation .
- HOW TO CREATE A LOCAL URL : creating a local URL it involves specifying the path to a resource withinyour local file system e.g if your HTML file and another file are in the same directory     you can create a local link . 
+ HOW TO CREATE A LOCAL URL : creating a local URL it involves specifying the path to a resource withinyour local file system e.g if your HTML file and another file are in the same directory     you can create a local link .
+ 
+
 NAVIGATION : It referes to the system or process of moving between different pages within the website . Common elements in navigation incude menus , links and buttons that guide users through the structure of the site, secondly links are wrapped in an element with the correct URL and then eclosed in a li (list) tags. to indicate the that the site is navigating  you have to encompass the menu in a nav (tags) and it needs to appear by using css styling.Breadcrumbs are a navigation aid on website showimg usesrs the path fromthe home page to the current page and are are wrapped in nav element using orderd list ol tags.
  
 
-- 
-
+ 
+  
 
 
 
