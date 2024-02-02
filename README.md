@@ -44,7 +44,12 @@ RELATIVE PATHS :
 - NAVIGATION : It referes to the system or process of moving between different pages within the website . Common elements in navigation incude menus , links and buttons that guide users through the structure of the site, secondly links are wrapped in an element with the correct URL and then eclosed in a li (list) tags. to indicate the that the site is navigating  you have to encompass the menu in a nav (tags) and it needs to appear by using css styling.Breadcrumbs are a navigation aid on website showimg usesrs the path fromthe home page to the current page and are are wrapped in nav element using orderd list ol tags.
 WE HAVE TWO OPRION OF WRITING URL: 1. /imgages/logo.gif - it creates a URL that is relative to the root level that means the browser will start looking for the file from the root of a website . 
                                    2. ../imges.logo.gif - creates URL that is relative to the location of the file whre the URL is written .
-- ABSOLUTE AND RELATIVE URLs : when we see this URL https://www.awesomedogss.com/peaple it means that we are looking for file called index.html inside the folder called people ,. Web development when a browswer is given a URL that points to a folder it automatically looks for an index.html file and loads it , thats why it is wise to create URL structure by using folders instead of having a file named people.html. 
+- ABSOLUTE AND RELATIVE URLs : when we see this URL https://www.awesomedogss.com/peaple it means that we are looking for file called index.html inside the folder called people ,. Web development when a browswer is given a URL that points to a folder it automatically looks for an index.html file and loads it , thats why it is wise to create URL structure by using folders instead of having a file named people.html.
+
+- # UNIT 5
+- HTML WORKING WITH GRAPHICS AND IMAGES
+
+- IMAGES are almost everywhere if we want to add an image on a webpage  we use the image element which is written as IMG , we have 4 attributes thyat needs to be included on every image which are : Source attribute (SRC) which tells the broswer which image which image to load , Alte attribute (ALT) it provides text description of an image , Height and width attribute it determines the size of an object
                                   
  
  
