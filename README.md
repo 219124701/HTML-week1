@@ -59,7 +59,13 @@ WE HAVE TWO OPRION OF WRITING URL: 1. /imgages/logo.gif - it creates a URL that 
                                 2. SVG is perfect for logos and icons
                                 3. JPG is for compressing photograph
                                 4. PNG it works well when you need transparency
-  - RESPONSIVE IMAGES SOURCE
+  - RESPONSIVE IMAGES SOURCE SET FILE FORMATS
+    Html allows us to deliver different image files to screens of different sizes
+
+   -  We can create multiple image files and include them as options in our HTML code , the browser in collaboration with the OS , taks into account and devices hardware capabilities and network speed to decide which image to download
+   -  when you start coding you start with the basic code for loading an image on a web       page , by using an image element with a source attribute hat points to the image file along with ALT text ,width and height .
+ 
+   -  FIGCAPTION - The < figcaption > element is used to provide a caption for  '< FIGURE >' element , typically used with images or illusrations 
                                   
  
  
