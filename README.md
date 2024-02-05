@@ -46,10 +46,20 @@ WE HAVE TWO OPRION OF WRITING URL: 1. /imgages/logo.gif - it creates a URL that 
                                    2. ../imges.logo.gif - creates URL that is relative to the location of the file whre the URL is written .
 - ABSOLUTE AND RELATIVE URLs : when we see this URL https://www.awesomedogss.com/peaple it means that we are looking for file called index.html inside the folder called people ,. Web development when a browswer is given a URL that points to a folder it automatically looks for an index.html file and loads it , thats why it is wise to create URL structure by using folders instead of having a file named people.html.
 
+# WEEK 2
+
 - # UNIT 5
 - HTML WORKING WITH GRAPHICS AND IMAGES
 
 - IMAGES are almost everywhere if we want to add an image on a webpage  we use the image element which is written as IMG , we have 4 attributes thyat needs to be included on every image which are : Source attribute (SRC) which tells the broswer which image which image to load , Alte attribute (ALT) it provides text description of an image , Height and width attribute it determines the size of an object
+
+- IMAGE FORMAT
+
+  We have 4 main file formats : 1. GIF it is used for compressing illustrations that have large of the same colours
+                                2. SVG is perfect for logos and icons
+                                3. JPG is for compressing photograph
+                                4. PNG it works well when you need transparency
+  - RESPONSIVE IMAGES SOURCE
                                   
  
  
