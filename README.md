@@ -70,7 +70,25 @@ WE HAVE TWO OPRION OF WRITING URL: 1. /imgages/logo.gif - it creates a URL that 
 # unit 6 
 - WORKING WITH MEDIA
 
-- working with media in html
+- working with media in html typically involves embedding audio,video, and images into web pages
+- Various types of media
+
+1. Images : uses the '<img>' tag to display images. you need to to specify the 'src'attribute with the URL of the image file . for example
+   <img sc="image.jpg" alt = "Description of the image" >
+2. Audio : Use the '<audio'> tag to embedd audio files. You can specify multiple source files to provide compatibility with different browsers e.g
+< audio controls>
+<source src= "audio mp3" type ="audio/mpeg">
+</audio>
+
+3. VIDEO : Use the '<video>' tag to embedd video files . Similar to audio , you can specify multiple source files e.g
+<video contols >
+<source src= "video mp4" type =" video/mp4" >
+</video>
+
+4. Embedding from External Source : You can also embed media from external sources like youtube or Vimeo using their provided embed code. e.g
+   <iframe width ="560" height ="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder= "0" allowfullscreen></iframe>iframe>
+   It is important to always provide the alternative text ('alt'attribute ) for images and a fallback message for audio and video elements incase the browser doesnt support then or the media fails to load .
+
  
 
                                   
