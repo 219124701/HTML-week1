@@ -89,6 +89,14 @@ WE HAVE TWO OPRION OF WRITING URL: 1. /imgages/logo.gif - it creates a URL that 
    <iframe width ="560" height ="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder= "0" allowfullscreen></iframe>iframe>
    It is important to always provide the alternative text ('alt'attribute ) for images and a fallback message for audio and video elements incase the browser doesnt support then or the media fails to load .
 
+
+   # unit 7
+   HTML CONTENT IDENTIFICATION
+
+   HTML LANGUAGE SUPPORT
+
+   - In 
+
  
 
                                   
