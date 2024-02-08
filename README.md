@@ -95,7 +95,21 @@ WE HAVE TWO OPRION OF WRITING URL: 1. /imgages/logo.gif - it creates a URL that 
 
    HTML LANGUAGE SUPPORT
 
-   - In 
+   - People speak various languages but in HTML there are tools to indicate the language of your content . By setting things up correctly , search engines will understand which language of your content .
+   - Theres a lang attribute that is used to specify the language of a webpage . if the wthe whole page is is in one language then it is quite simple becouse you set the language on the main element that wraps everything else whch is usually the HTML element .
+   - for example <"en-US" in the lang attribute it means U.S english , and we can also use "en-GB" for english in great Britain . it is also important to specify the content's direction becoase almost all the languages flow from left to right horizontally but some from right to left. Use the dirattribute to indicate the dirction and it once on the outer HTML.
+  
+<html lang="en-US">
+<html lang="en-gb" dr="ltr"
+<html lang="ar" dir="rtl">
+<meta charset="UTF-8">
+
+HTML Generic Elements , dive and Span
+-in html , '<div' and '<span>' are both elements used for styling and structuring content but they serve different purpose : 
+1. '<div>' short for division is a block element used to group together related content and apply styles to the entire block and it is commonly used for creating sections of a webpage such as geaders , footers,sidebars
+2. '<span>' is an inline level element used to apply styles to a specific part of the content usually within a larger block of text .but it does not create any line breaks and only takes up as much width as its content requires . it is also used for stling like color , font size or formatingto small portions of text within a paragraph or inline elements.
+     
+    
 
  
 
