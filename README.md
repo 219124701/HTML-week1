@@ -108,6 +108,15 @@ HTML Generic Elements , dive and Span
 -in html , '<div' and '<span>' are both elements used for styling and structuring content but they serve different purpose : 
 1. '<div>' short for division is a block element used to group together related content and apply styles to the entire block and it is commonly used for creating sections of a webpage such as geaders , footers,sidebars
 2. '<span>' is an inline level element used to apply styles to a specific part of the content usually within a larger block of text .but it does not create any line breaks and only takes up as much width as its content requires . it is also used for stling like color , font size or formatingto small portions of text within a paragraph or inline elements.
+
+WORKING WITH DIV AND SPAN ELEMENTS 
+When working on css layout you are required to group these paragraphs together. The purpose is to add a background color only to the paragraphs , to do this well we have to introduce a Div with a class called boxes an example if there is a phrase in the middle of the text tha needs to be specifically targeted for some reason and it is written in Spanish we have to change its language attribute to reflect that by using inline element span to mark the desired phrase .  both div and span can make use of varipus global attributes like class,id,lang and aria roles.
+
+# UNIT 8
+HTML INTERGRATION
+
+- When you want to visit a website you open a web browser or a web view and enter a URL you can even type it in the adress bar and then click search result or link or open an app tht triggers it even if its that a URL is involved , the web server responds by sending back the specif HTML file lococated at the address . Back then everything that needed to be displayed in a website was contained in a single HTMLfile along with the images but things have changed the TEXT is stored in database and multiple static files are combined in real
+
      
     
 
