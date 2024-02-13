@@ -119,8 +119,32 @@ HTML INTERGRATION
 
 - HOW TO STRUCTURE THE WHOLE HTML FILE
 - The file should begin with a doctype statement which indicates the era of this html file.
-- enclose everything else on the page within an html element wich named HTML, it tells us that all the content within it is html , place the opening html tag at the top and the closing html tag at the bottom.
+- enclose everything else on the page within an html element wich named HTML, it tells us that all the content within it is html , place the opening html tag at the top and the closing html tag at the bottom. also declare the language being used and the content flow direction
 
+- IN HTML we have two parts which is head and the body
+- HEAD : it contains all the metadata that the browser needs to know but will not display on the page
+- BODY : is for all the content and is composed of various elements whereby most of the action happens.
+- The doctype declaration , html head and body elements are the essential building blocks of every web page.
+
+DOCUMENT HEAD
+- on the head of the website you only put important information that the browser needs to know about the website . The charecter needs to be seen by the browser and you have to use meta element , and make sure that elements are only placed inside the head as they provide metadata about the page. To define the charecter set use the charecter set attribute and set it to UTF-8.
+
+  The Meta Tag
+  - it is used to inform the browser that the layout has been adjusted to fit small screens , making it a responsive website. without the meta tag the browser assumes the page follows an order layout technique designed for destops which needs to be scaled for mobile devices, it is also useful to include a description of the site which appears in search engine.
+ 
+  - THE LINK ELEMENT
+The link element is an important component used extensily within the head section it serves to connect various assets that should load such as CSS files ,font and favicons. To inform the browser about the type of asset you have to utilize the rel attribute.
+- the href attribute is employed to specify the URL asset. e.g a link to a style sheet would appear like this , indicating the rel attribute as stylesheet. you can also include a link to s in the order they are listed . preload a font file , it is important to consider that the browser will load the file , it is advisable to to place the items that need to load first at the top while less delayed use items can be positioned further down. SCRIPT ELEMENT
+ <script src=" my-javascript-file.js"> </script>
+- Script tag is a commonly used element in html document's head it instruct the browser to load a javascript file even though it s placed at the end of the document.
+
+- 6 IMPORTANT ELEMENTS WHEN STRUCTURING THE CONTENT
+  1. MAIN ELEMENT it is uesd once per webpage and tells the browser where the main content is located.
+  2. HEADER is uesd for site headers ,articlesheaders, and headers within the content . A header is usually found at the top of most web pages and may include a logo adn navigation.
+  3. FOOTER it signifies that there are extra things to convey regarless of its position on the page.
+  4. ARTICLE - it starts with a title , subtitle , authors name and publicatin date which can be considered as a header. Some articles begin with metadata like hashtags or share buttons which is suitable for a footer element.
+  5. SECTION ELEMENT : Is used to mark sections for content e.g in a long essay with subheadings each segment can be wrapped in a section element and it is also used for dividing different topics zones on a website.
+  6. ASIDE is an element that is used for content that is off to the side like sidebar information or additional details that accompany an article, Aso an advertising can be an aside.
 
      
     
