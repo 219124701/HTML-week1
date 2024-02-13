@@ -115,7 +115,12 @@ When working on css layout you are required to group these paragraphs together. 
 # UNIT 8
 HTML INTERGRATION
 
-- When you want to visit a website you open a web browser or a web view and enter a URL you can even type it in the adress bar and then click search result or link or open an app tht triggers it even if its that a URL is involved , the web server responds by sending back the specif HTML file lococated at the address . Back then everything that needed to be displayed in a website was contained in a single HTMLfile along with the images but things have changed the TEXT is stored in database and multiple static files are combined in real
+- When you want to visit a website you open a web browser or a web view and enter a URL you can even type it in the adress bar and then click search result or link or open an app tht triggers it even if its that a URL is involved , the web server responds by sending back the specif HTML file located at the address . Back then everything that needed to be displayed in a website was contained in a single HTMLfile along with the images but things have changed the TEXT is stored in database and multiple static files are combined in real.
+
+- HOW TO STRUCTURE THE WHOLE HTML FILE
+- The file should begin with a doctype statement which indicates the era of this html file.
+- enclose everything else on the page within an html element wich named HTML, it tells us that all the content within it is html , place the opening html tag at the top and the closing html tag at the bottom.
+
 
      
     
