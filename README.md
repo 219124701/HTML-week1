@@ -146,10 +146,34 @@ The link element is an important component used extensily within the head sectio
   5. SECTION ELEMENT : Is used to mark sections for content e.g in a long essay with subheadings each segment can be wrapped in a section element and it is also used for dividing different topics zones on a website.
   6. ASIDE is an element that is used for content that is off to the side like sidebar information or additional details that accompany an article, Aso an advertising can be an aside.
 
+     # UNIT 9
+     WORKING WITH FORMS AND INTERACTIVE ELEMENTS
+
+     - Form fields have been an essential part of the web for a long time and it is used for various tasks like ligging into websites , making purchases, conducting searches and also adding content. It is very wise to use semantic form elements in HTML instead of divs and Spans because it allows us to leverage the built in power of the browser. Using html form elements we ensure that the forms will be compatible with all devices and input output hardware .
+     - When creating a form to sgn up for an email newsletter we use two fields wich is THE PERSON'S NAME  and their EMAIL ADRESS.
+     - When creating a form we start with the form element that informs the browser about the presence of a form using opening and closing tags , there is a newsletter signup form that also needs two fields which is name and email that can be turned into labels using the lebel element.
+     - we use the input element to provide for users to input their name and email unlike other elements , the input element does not have a closing tag due to its older structure and it actd as a maker for the browser to bring in functionality and place it there.
+     - the a Button is needed for users to submit the form , when the form lacks functionality it needs to be connected to the backend then add an action and method attribute to make a demo work .
+     - after you done setting up land on the response page but if the data that was entered does not appear this is becouse the input fields need a "name" attribute to report the data.
+     - To make it accessible to everyone we need to adress the issue of the label and input elements not being connected w, we have two options to figure this out
+       1. add a "for" attribute to the label that matches the "id" attribute of the input .
+       2. Wrap the input with the label .
+
+          FORM FUNCTIONS
+      - The purpose of creating the is to collect a name and email adress in order for people to sihn up for an email nwesletter. Thhe below links shows how to ceate a form:
+
+![image](https://github.com/219124701/HTML-week1/assets/158051727/3a19b264-c920-484a-91ce-e6d2883254b5)
+
+- When people want to fill out this form the browser wi;; verify that the data that was entered is an email and when a user tries to type anything other that than an email address they will get a warning and asked to fix it , also the purpose is to tell the browser that our button is a submit button if it happens that there are many buttons we inform the browser which button to activate when a user hits return on their keyboard , required attribute can also be added to make the the email feel required
+- HYML can put a placeholder in the form , use the placeholder attribute and put a suggestion . Then sugested text should appear light gray by default and as soon as this field is clicked the placeholder text disappears , this proves that the user dhould not erase tis placeholder text in order to write their own email address .
+
+- The forms does not have to be ugly , we use css to style forms to render muc better than simple text boxes , Proper semantic html elements can be used in forms to style them . 
      
     
+![image](https://github.com/219124701/HTML-week1/assets/158051727/c0a57429-9ff6-4ed9-945f-f695683763e8)
+the above link is a form structure whereby theres an email and name along with a button just with better styling . add three more fields : password , search and phone number to see what they can do .
 
- 
+- 
 
                                   
  
