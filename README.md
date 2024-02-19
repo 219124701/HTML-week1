@@ -171,9 +171,20 @@ The link element is an important component used extensily within the head sectio
      
     
 ![image](https://github.com/219124701/HTML-week1/assets/158051727/c0a57429-9ff6-4ed9-945f-f695683763e8)
-the above link is a form structure whereby theres an email and name along with a button just with better styling . add three more fields : password , search and phone number to see what they can do .
+the above link is a form structure whereby theres an email and name along with a button just with better styling . add three more fields : password , search and phone number to see what they can do 
+- These are are very similar in structure to the text and email from fields, for the password field the type the equals password. When we start to type into the password field the browser will warn us not to set up to use HTTP and not HTTPS which is good, users should not fill out the forms like this on sites that have not been secured by HTTPS.
 
-- 
+  # UNIT 10
+  ORGANISING TABULAR INFORMATION IN HTML.
+
+  HTML TABLES
+  html tables are used for tabular data , A bunch of information that is best communicated by aligning things into rows and columns it is a data table.
+  - How to decide to use a table in html because there is speific information that is best conveyed in a table : you compare prices of things that are for sale , population data by town ,election results, product comparisons , schedule, bits of information collected that people want to quickly compare. You can use CSS to rearrange how a table have to look like , what is important is inherently a table then use an html table.
+ 
+    BUILDING HTML TABLES
+    to create an html table we can simple use several different HTML elements in just the right combination . table ,table row(TR) , table header (TH) , Table header (TH). The table element wraps around the whole table , around all our content and markup for that table, marking the begining and end of the table its self. TR stands for table raw that wraps around a set of elements , defining them as elonging to the same row . The TH stands for table header that defines a header for a column then TD stands for table data and marks up the cells of dats.
+
+  
 
                                   
  
