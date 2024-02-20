@@ -184,6 +184,14 @@ the above link is a form structure whereby theres an email and name along with a
     BUILDING HTML TABLES
     to create an html table we can simple use several different HTML elements in just the right combination . table ,table row(TR) , table header (TH) , Table header (TH). The table element wraps around the whole table , around all our content and markup for that table, marking the begining and end of the table its self. TR stands for table raw that wraps around a set of elements , defining them as elonging to the same row . The TH stands for table header that defines a header for a column then TD stands for table data and marks up the cells of dats.
 
+    INTRODUCTION TO CSS
+
+    # UNIT 1
+
+    css is a style sheet language
+    
+    
+
   
 
                                   
