@@ -188,9 +188,69 @@ the above link is a form structure whereby theres an email and name along with a
 
     # UNIT 1
 
-    css is a style sheet language
-    
-    
+    css is a style sheet language. ccs have two components which is Property and the Value
+    -How to write a comment and an Element Selector : when you writing your first element selector you open it and find a set of headings , subheadings and paragraphs that we can work with.
+    - SELECTORS in css , if we want to select all the paragraphs on our page and make them any color of my choice we can use the html element P as the selector.
+    - then in our CSS we write "P" without the angle bracket and set the color property to blue .
+    - Then if it happens that i want to change all Headings Red we uae selector "H2" in the css also use the color property and set it to red .that will make the page Red.
+
+    HOW TO WRITE A CLASS SELECTOR.
+    A class is an attrribute that can be added to an HTML,it provides an additional details about that element .
+
+  - First you have to start with html code . if we want the first paragraph tag and give it a name like "intro". this way it will stand out as an the introductory paragraph .
+  - in CSS we use dot (.) before any class name to differentiate it from HTML element selectors Write ".intro" and set the color to green.
+  - If we want to style a specific part of a paragraph differently we can use Span element with a class attribute e.g you have to make the sentence about tha guarantee orange and bold. how to do this? by adding the span tag with class="guarantee"around that sentence in the HTML. Then, in ccs we write ".guarantee" to select the class and set the color to orange and the font-weight to bold.
+ 
+TAKE THE SENENCE "PHILANTROPHY IS EXTREMELY IMPOETANT TO US" AND MAKE IT BLACK ,BOLD AND ALL UPPERCASE . A STARTING POINT HAS ALREADY BEEN PROVIDED TO YOU WITH THE SETTING OF THE CLASS NAME AS"IMPORTANT" AND THE CSS PROPERTY "TEXT-TRANSFORM:UPPERCASE". FIND A WAY TO SELECT THAT SENTENCE IN THE HTML AND COMPLETE THE STYLE BY MAKING IT BLACK AND BOLD: ANSWER BELOW
+ 
+   .important {
+  color: black; /* Set the text color to black */
+  font-weight: bold; /* Make the text bold */
+  text-transform: uppercase; /* Transform the text to uppercase */
+}
+
+YOU CAN INCLUDE THIS CSS IN A STYLE TAG WITHIN THE <HEADS> SECTION OF YOUR HTML DOCUMENT OR EXTERNAL CSS FILE LINKED TO YOUR DOCUMENT , HERE'S IS HOW YOU WOULD LIKE TO USE IT IN YOR HTML:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .important {
+      color: black;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <p class="important">Philanthropy is extremely important to use</p>
+</body>
+</html>
+
+GROUPIG SELECTORS
+ - its a selector that allows us to apply multiple selectors at once by separating each selector with a comma e.g
+
+.class 1, .class 2, .class 3{
+color: blue,
+}
+ DESCENDANT SELECTOR 
+ - it is used to select elements that are descendant element of a certain element , it can be nested at any level within the ancestor element e.g
+
+div p {
+backgroug: blue,
+}
+
+# unit 3 
+IDENNTIFY A COLOR SCHEME
+
+The most common way to represent color online is through hex codes that is also knwn as hex values or hex format 
+- Hex values are typicall six digits long and consists of numbers from zero to nine and letters A to F. The first two digits represent red, the next two represent green and the final two represent blue . These digits correspond to number ranging from zero to 25.
+
+BACKGROUND AND TEXT COLOR IN CSS 
+
+-To find a color we like , refer to the named color chart provided in the exercise fies, scroll down and chose a teal color by changing to pink teal , we can also select a color palette  called "Fiery Cracked Earth" in canva which includes the colors you may want to use . it is important to note that canva assigns names to these colors, but they may not work in sublime text instead work with the hex valuesp provided on CSS and named colors chart.
+
+
 
   
 
