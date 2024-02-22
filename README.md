@@ -251,16 +251,53 @@ BACKGROUND AND TEXT COLOR IN CSS
 -To find a color we like , refer to the named color chart provided in the exercise fies, scroll down and chose a teal color by changing to pink teal , we can also select a color palette  called "Fiery Cracked Earth" in canva which includes the colors you may want to use . it is important to note that canva assigns names to these colors, but they may not work in sublime text instead work with the hex valuesp provided on CSS and named colors chart.
 
 
+n CSS, text colors are set using the color property. This property specifies the color of the text content within an element. It's crucial to ensure good contrast between the text color and the background color to improve readability, especially for users with vision problems. High contrast is recommended to make the text easily distinguishable from the background 14.
 
-  
+To set the text color in CSS, you can use color names, hexadecimal color codes, RGB values, or HSL values. Here are some examples:
 
-                                  
- 
- 
+Using color names supported by all browsers, such as Red, Blue, Green, etc. 3.
+Using hexadecimal color codes, e.g., #FF0000 for red, #0000FF for blue, #008000 for green 3.
+Using RGB values, e.g., rgb(255, 0, 0) for red, rgb(0, 0, 255) for blue, rgb(0, 128, 0) for green.
+Using HSL values, e.g., hsl(0, 100%, 50%) for red, hsl(240, 100%, 50%) for blue, hsl(120, 100%, 50%) for green.
 
- 
-  
+AN EXAMPLE OF SETTING A TEXT COLOR:
+p {
+    color: #333; /* Hexadecimal color code for dark gray */
+}
+
+It's also important to consider the contrast between text and background colors to ensure your text is easily readable. For instance, a text color of #333 (dark gray) with a background color of #f2f2f2 (light gray) provides good contrast, making the text easily readable:
 
 
+Background text colors in CSS can be set using the background-color property. This property allows you to specify the background color of an element, which can be any HTML element like a paragraph (<p>), heading (<h1>, <h2>, etc.), div (<div>), span (<span>), and more. The background-color property can accept various types of color values, including color names, hexadecimal color codes, RGB values, and HSL values, similar to the color property for text colors.
 
+Here are some examples of setting the background color using different methods:
+
+Color Names: You can use color names supported by all browsers, such as Aqua, Beige, Black, Blue, Cyan, Gold, Gray, Fuchsia, etc. 1.
+
+Hexadecimal Color Codes: For example, #F0F8FF for light blue, #00FFFF for cyan, #F5F5DC for beige, #000000 for black, #0000FF for blue, #F5F5DC for beige, etc. 1.
+
+RGB Values: For instance, rgb(153, 102, 153) for a specific shade of purple, rgb(255, 255, 204) for a light yellow, etc. 4.
+
+HSL Values: For example, hsl(240, 100%, 50%) for blue, hsl(120, 100%, 50%) for green, etc. 4.
+
+
+Here's a simple CSS example that sets the background color of a paragraph element:
+      p {
+    background-color: #F0F8FF; /* Light blue */
+}
+
+
+And another example using an RGB value for a div element:
+div {
+    background-color: rgb(153,  102,  153); /* Purple */
+}
+
+ important to ensure that the background color provides sufficient contrast with the text color to maintain readability. Tools like the WebAIM Contrast Checker can help you determine if the contrast ratio between your text and background colors meets accessibility standards, aiming for a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text 2.
+
+For more complex scenarios, such as applying a background color only to a portion of the text within an element, you can use a <span> element inside the text block and apply the background-color property to the <span> instead of the entire block. This method allows for more granular control over the styling of specific parts of the text:
+
+<h1><span style="background-color: yellow;">Highlighted Text</span></h1>
+
+
+n this example, only the "Highlighted Text" portion of the heading will have a yellow background, while the rest of the heading remains unchanged.
                     
